@@ -1,0 +1,38 @@
+.box {
+    height: 400px;
+    width: 100%;
+    background-color:white;
+}
+
+.imgone{
+    animation: imgone linear 5s;
+    left: -400px;
+    position: relative;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes imgone{
+    from{
+       left:-400px;
+    }
+    to{
+      left:1150px;
+    }
+}
+
+.imgtwo{
+    animation: imgtwo linear 5s;
+    left: -400px;
+    position: relative;
+    animation-iteration-count: infinite;
+    height: 400px;
+} 
+
+@keyframes imgtwo{
+    from{
+       left:-800px;
+    }
+    to{
+      left:1150px;
+    }
+}
